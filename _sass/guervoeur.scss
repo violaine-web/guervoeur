@@ -1,9 +1,28 @@
 body {
     margin: auto;
     width: 1000px;
-    background: #eee;
+    background: #f0ede2;
 }
+body a {
+    color: green;
+  }
+body a:visited {
+    color: green;
+  }
+body a:hover {
+    color: black;
+  }
+
 .container {
     padding: 2em;
     margin: 1em 3em;
+}
+.btn.btn-link {
+    color: black;
+    padding-left: 15em;
+}
+
+.navbar {
+    padding-left: 2em;
+    height: 5em;
 }
