@@ -12,7 +12,10 @@ body a:visited {
 body a:hover {
     color: black;
   }
-
+  
+.navbar {  
+  border-bottom: 1px solid black;
+}
 .container {
     padding: 2em;
     margin: 1em 3em;
