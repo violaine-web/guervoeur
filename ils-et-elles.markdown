@@ -15,3 +15,9 @@ layout: page
     <a href="/ils-et-elles">Ils et Elles,mon archipel</a>
   </li>
 </ul>
+
+{% for essai-1 in site.essais-1 %}
+  <h2>{{ essai-1.title }}</h2>
+  <h3>{{ essai-1.subtitle }}</h3>
+  <p>{{ essai-1.content | markdownify }}</p>
+{% endfor %}
