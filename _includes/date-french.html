@@ -12,7 +12,7 @@
 {% when "Tuesday" %}
 {% assign date_french = date_french | append: "mardi" %}
 {% when "Wednesday" %}
-{% assign date_french = date_french | append: "Mercredi" %}
+{% assign date_french = date_french | append: "mercredi" %}
 {% when "Thursday" %}
 {% assign date_french = date_french | append: "jeudi" %}
 {% when "Friday" %}
@@ -42,7 +42,7 @@
 {% when "January" %}
 {% assign date_french = date_french | append: "janvier" %}
 {% when "February" %}
-{% assign date_french = date_french | append: "fevrier" %}
+{% assign date_french = date_french | append: "février" %}
 {% when "March" %}
 {% assign date_french = date_french | append: "mars" %}
 {% when "April" %}
@@ -66,29 +66,29 @@
 
 {% comment %} Convert months in short notation {% endcomment %}
 {% when "Jan" %}
-{% assign date_french = date_french | append: "janv" %}
+{% assign date_french = date_french | append: "janvier" %}
 {% when "Feb" %}
-{% assign date_french = date_french | append: "fevr" %}
+{% assign date_french = date_french | append: "février" %}
 {% when "Mar" %}
 {% assign date_french = date_french | append: "mars" %}
 {% when "Apr" %}
-{% assign date_french = date_french | append: "avr" %}
+{% assign date_french = date_french | append: "avril" %}
 {% when "May" %}
 {% assign date_french = date_french | append: "mai" %}
 {% when "Jun" %}
 {% assign date_french = date_french | append: "juin" %}
 {% when "Jul" %}
-{% assign date_french = date_french | append: "juil" %}
+{% assign date_french = date_french | append: "juillet" %}
 {% when "Aug" %}
 {% assign date_french = date_french | append: "août" %}
 {% when "Sept" %}
-{% assign date_french = date_french | append: "sept" %}
+{% assign date_french = date_french | append: "septembre" %}
 {% when "Oct" %}
-{% assign date_french = date_french | append: "oct" %}
+{% assign date_french = date_french | append: "octobre" %}
 {% when "Nov" %}
-{% assign date_french = date_french | append: "nov" %}
+{% assign date_french = date_french | append: "novembre" %}
 {% when "Dec" %}
-{% assign date_french = date_french | append: "déc" %}
+{% assign date_french = date_french | append: "décembre" %}
 
 {% else %}
 {% assign date_french = date_french | append: word %}
