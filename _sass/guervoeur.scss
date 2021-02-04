@@ -12,9 +12,11 @@ body a:visited {
 body a:hover {
     color: black;
   }
-  
 .navbar {  
   border-bottom: 1px solid black;
+  padding-left: 2em;
+  height: 5em;
+  text-align: right;
 }
 .container {
     padding: 2em;
@@ -22,14 +24,9 @@ body a:hover {
 }
 .btn.btn-link {
     color: black;
-    padding-left: 4em;
 }
 .btn.btn-link:hover {
   color: green;
-}
-.navbar {
-    padding-left: 2em;
-    height: 5em;
 }
 .post-title {
   margin-bottom: 0.1em;
