@@ -22,10 +22,24 @@ body a:hover {
 }
 .btn.btn-link {
     color: black;
-    padding-left: 15em;
+    padding-left: 4em;
 }
-
+.btn.btn-link:hover {
+  color: green;
+}
 .navbar {
     padding-left: 2em;
     height: 5em;
+}
+.post-title {
+  margin-bottom: 0.1em;
+  margin-top: 0.4em
+}
+.post-subtitle {
+  color: black
+}
+.post-meta {
+  margin-bottom: 5px;
+  font-style: italic;
+  color: green
 }
