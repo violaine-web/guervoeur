@@ -1,11 +1,9 @@
 ---
 layout: post
 title:  "Le bon gardien"
+subtitle: de Magda Hollander-Lafon
 date:   2021-02-02 10:13:26 +0100
 ---
-
-# Le bon gardien
- 
 La bonté m’a souvent rendu visite. Elle a pris cette fois un visage repoussant, plein de traces de petite vérole. Ses yeux noirs lancent des flammes terribles et sa voix est rude et tonitruante. Dans mon for intérieur, j’ai de l’aversion pour ce grand corps fruste, écrasant de puissance.
  
 Rescapées, nous clouons des rails et déchargeons des wagonnets pleins de traverses. Quarante-trois degrés en dessous de zéro. Nous étions arrivées à destination après plusieurs jours de voyage ; les trois-quart d’entre nous étaient restées dans les fourgons, gelées. Nous sommes encadrées par des gardiens, travailleurs eux-mêmes, et l’ensemble est étroitement surveillé par des uniformes noirs, marqués de la tête de mort.
