@@ -50,8 +50,10 @@ layout: default
       </a>
 
       <p class="post-meta">
-        {% assign date_format = site.date_format | default: "%-d %b %Y" %}
-        Posté le {{ post.date | date: date_format }}
+        {% assign date_format = site.minima.date_format | default: "%-d %b %Y" %}
+        Posté le {{ date_french }}
+        {% assign date_english = post.date | date: date_format %}
+        {% include date-french.html %}
       </p>
 
       {% if thumbnail != "" %}
