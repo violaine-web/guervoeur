@@ -48,14 +48,10 @@ layout: default
         </h3>
         {% endif %}
       </a>
-
-      <p class="post-meta">
-        {% assign date_format = site.minima.date_format | default: "%-d %b %Y" %}
-        Posté le {{ date_french }}
-        {% assign date_english = post.date | date: date_format %}
-        {% include date-french.html %}
-      </p>
-
+      {% assign date_format = site.minima.date_format | default: "%-d %b %Y" %}
+      {% assign date_english = post.date | date: date_format %}
+      {% include date-french.html %}
+      <span class="post-meta">{{ date_french }}</span>
       {% if thumbnail != "" %}
       <div class="post-image post-image-small">
         <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
