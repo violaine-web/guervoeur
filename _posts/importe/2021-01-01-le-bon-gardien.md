@@ -2,7 +2,7 @@
 layout: post
 title:  "Le bon gardien"
 subtitle: de Magda Hollander-Lafon
-date:   2021-02-02 10:13:26 +0100
+date:   2021-01-01 10:13:26 +0100
 ---
 La bonté m’a souvent rendu visite. Elle a pris cette fois un visage repoussant, plein de traces de petite vérole. Ses yeux noirs lancent des flammes terribles et sa voix est rude et tonitruante. Dans mon for intérieur, j’ai de l’aversion pour ce grand corps fruste, écrasant de puissance.
  
