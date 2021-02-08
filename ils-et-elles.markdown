@@ -12,12 +12,18 @@ layout: page
     <a href="/pages-georgina">Les pages de Georgina</a>
   </li>
   <li class="breadcrumb-item">
-    <a href="/ils-et-elles">Ils et Elles,mon archipel</a>
+    <a href="/ils-et-elles">Ils et Elles, mon archipel</a>
   </li>
 </ul>
 
 {% for essai-1 in site.essais-1 %}
   <h2>{{ essai-1.title }}</h2>
   <h3>{{ essai-1.subtitle }}</h3>
+  <time datetime="{{ essai-1.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%-d %b %Y" %}
+        {% assign date_english = essai-1.date | date: date_format %}
+        {% include date-french.html %}
+        {{ date_french }}
+      </time>
   <p>{{ essai-1.content | markdownify }}</p>
 {% endfor %}
