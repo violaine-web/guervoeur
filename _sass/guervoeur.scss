@@ -16,7 +16,6 @@ body a:hover {
   border-bottom: 1px solid black;
   padding-left: 2em;
   height: 5em;
-  text-align: right;
 }
 .container {
     padding: 2em;
@@ -24,12 +23,18 @@ body a:hover {
 }
 .btn.btn-link {
     color: black;
+    display: inline;
+    padding-right: 2em;
+    margin-right: 0.1em;
+    margin-left: auto;
+    
+      
 }
 .btn.btn-link:hover {
   color: green;
 }
 .post-title {
-  margin-bottom: 0.1em;
+  margin-bottom: 0.4em;
   margin-top: 0.4em
 }
 .post-subtitle {
