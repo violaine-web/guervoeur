@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
+order: 4
 ---
 Georgina Tonnelier
 et les amis de La Traverse  

@@ -2,6 +2,7 @@
 layout: page
 title: Programme
 permalink: /programme/
+order: 3
 ---
 Découvrez le programme de la Traverse   
 
