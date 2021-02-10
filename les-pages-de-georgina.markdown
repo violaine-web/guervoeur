@@ -5,7 +5,7 @@ permalink: /pages-georgina/
 order: 1
 ---
 
-### [Il et Elles, mon archipel](/ils-et-elles)
+### [Il et Elles, mon archipel](/archipel)
 Des textes des unes, des uns et des autres partagés par Georgina
 
 ### [Ce peu importe](2021-02-02-essai-2)
