@@ -6,17 +6,6 @@ order: 3
 ---
 Découvrez le programme de la Traverse   
 
-<ul class="breadcrumb">
-  <li class="breadcrumb-item">
-    <a href="/index">Home</a>
-  </li>
-  <li class="breadcrumb-item">
-    <a href="/contact">Contact</a>
-  </li>
-  <li class="breadcrumb-item">
-    <a href="#">Mail</a>
-  </li>
-</ul>
 
 <!--
  This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
