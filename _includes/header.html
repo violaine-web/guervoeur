@@ -2,7 +2,7 @@
   <section class="navbar-section">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="navbar-brand mr-2" rel="author" href="{{ " /" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="navbar-brand mr-2" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {%- if page_paths -%}
     {%- for path in page_paths -%}
     {%- assign my_page = site.pages | where: "path", path | first -%}
