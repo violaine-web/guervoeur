@@ -4,6 +4,7 @@
 
 layout: page
 ---
+
 <ul class="breadcrumb">
   <li class="breadcrumb-item">
     <a href="/index">Guervoeur</a>
@@ -12,7 +13,7 @@ layout: page
     <a href="/pages-georgina">Les pages de Georgina</a>
   </li>
   <li class="breadcrumb-item">
-    <a href="/archipel">Ils et Elles, mon archipel</a>
+    <a href="archipel">Ils et Elles, mon archipel</a>
   </li>
 </ul>
 
