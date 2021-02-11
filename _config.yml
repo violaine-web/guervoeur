@@ -28,9 +28,13 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 collections:
-  - archipel
+  - essais-1
   - essais-2
   - essais-3
+
+navbar-links:
+  Contact: "contact"
+  Les pages de Georgina: "les-pages-de-georgina"
 # Build settings
 theme: minima
 plugins:
