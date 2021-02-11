@@ -1,0 +1,103 @@
+---
+layout: page
+title: Petits récits z'insensés
+permalink: /insenses/
+---
+<style>
+    a.open-modal {
+        color: brown;
+    }
+
+    .img-responsive {
+        margin-top: 3rem;
+    }
+
+    .card-title {
+        font-weight: 80;
+    }
+
+    .card-body a {
+        display: block;
+    }
+</style>
+
+<ul class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="/index">Guervoeur</a>
+    </li>
+    <li class="breadcrumb-item">
+        <a href="/pages-georgina">Les pages de Georgina</a>
+    </li>
+    <li class="breadcrumb-item">
+        <a href="/insenses">Petits récits z'insensés</a>
+    </li>
+</ul>
+
+<script>
+    function openModal(evt) {
+        // récupère le numero du essai de l'attribut html data-essai-id
+        const essaiId = evt.dataset.essaiId
+        const myModal = document.querySelector('#modal-' + essaiId)
+        // On ajoute la classe active à la modal
+        myModal.classList.add('active')
+    }
+
+    function closeModal(evt) {
+        // récupère le numero du essai de l'attribut html data-essai-id
+        const essaiId = evt.dataset.essaiId
+        const myModal = document.querySelector('#modal-' + essaiId)
+        // On ajoute la classe active à la modal
+        myModal.classList.remove('active')
+    }
+</script>
+<div class="container">
+    <div class="columns">
+        {% assign essais-2 = site.essais-2 %}
+        {%- if essais-2.size > 0 -%}
+        {%- for essai in essais-2 -%}
+
+        <div class="column col-6">
+            <div class="card>
+                <div class=" card-image">
+                <img src="/assets/img/cantonniers.jpg" class="img-responsive">
+            </div>
+            <div class="card-header">
+                <div class="card-title h5">{{essai.title}}</div>
+                <div class="card-subtitle text-gray">{{essai.subtitle}}</div>
+                <time datetime="{{ essai.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {% assign date_format = site.minima.date_format | default: "%-d %b %Y" %}
+                    {% assign date_english = essai.date | date: date_format %}
+                    {% include date-french.html %}
+                    {{ date_french }}
+                </time>
+                <div class="card-body">
+                    <a href="#" class="open-modal" aria-label="Open" onClick="openModal(this); return false;"
+                        data-essai-id="{{essai.numero}}">Lire le texte</a>
+                    {%- if essai.pdf -%}
+                    <a href="/assets/img/archives/archives-2018/{{essai.pdf}}">Télécharger le numéro</a>
+                    {%- endif -%}
+                </div>
+                <div class="modal" id="modal-{{essai.numero}}">
+                    <a href="#" class="modal-overlay" aria-label="Close" onClick="closeModal(this); return false;"
+                        data-essai-id="{{essai.numero}}""></a>
+            <div class=" modal-container">
+                        <div class="modal-header">
+                            <a href="#" class="btn btn-clear float-right" aria-label="Close"
+                                onClick="closeModal(this); return false;" data-essai-id="{{essai.numero}}"></a>
+                            <div class="modal-title h4">{{essai.title}}</div>
+                            <div class="modal-title h5">{{essai.subtitle}}</div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="content">
+                                {{essai.content}}
+                            </div>
+                        </div>
+                        <div class="card-footer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {%- endfor -%}
+    {% endif %}
+</div>
+</div>
