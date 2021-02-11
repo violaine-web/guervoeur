@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ils et Elles mon archipel
+title: Ils et Elles
 permalink: /archipel/
 ---
 <style>
@@ -20,6 +20,18 @@ permalink: /archipel/
         display: block;
     }
 </style>
+
+<ul class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="/index">Guervoeur</a>
+    </li>
+    <li class="breadcrumb-item">
+        <a href="/pages-georgina">Les pages de Georgina</a>
+    </li>
+    <li class="breadcrumb-item">
+        <a href="/archipel">Ils et Elles, mon archipel</a>
+    </li>
+</ul>
 
 <script>
     function openModal(evt) {
@@ -57,9 +69,6 @@ permalink: /archipel/
                 <div class="card-body">
                     <a href="#" class="open-modal" aria-label="Open" onClick="openModal(this); return false;"
                         data-essai-id="{{essai.numero}}">Lire le texte</a>
-                    {%- if essai.pdf -%}
-                    <a href="/assets/img/archives/archives-2018/{{essai.pdf}}">Télécharger le numéro</a>
-                    {%- endif -%}
                 </div>
                 <div class="modal" id="modal-{{essai.numero}}">
                     <a href="#" class="modal-overlay" aria-label="Close" onClick="closeModal(this); return false;"
