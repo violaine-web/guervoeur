@@ -4,6 +4,8 @@
 
 layout: home
 ---
+# Site en construction...  
+
 Comme une oasis en Bretagne.  
 Un havre de paix au bord de l'océan.  
 Un lieu de rencontres et de retrouvailles.
