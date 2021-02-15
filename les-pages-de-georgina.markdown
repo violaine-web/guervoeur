@@ -2,7 +2,6 @@
 layout: page
 title: Les pages de Georgina
 permalink: /pages-georgina/
-order: 1
 ---
 
 ### [Il et Elles, mon archipel](/archipel)
