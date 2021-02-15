@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gîtes et chambres
+title: Chambres d'hôtes
 permalink: /gites-chambres
 order: 3
 ---
