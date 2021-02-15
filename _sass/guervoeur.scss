@@ -15,20 +15,20 @@ body a:hover {
 .navbar {  
   border-bottom: 1px solid black;
   padding-left: 2em;
+  padding-right: 2em;
   height: 5em;
+}
+.page-link {
+  margin-left: 5em;
 }
 .container {
     padding: 2em;
     margin: 1em 3em;
+    float: left;
 }
 .btn.btn-link {
     color: black;
-    display: inline;
-    padding-right: 2em;
-    margin-right: 0.1em;
-    margin-left: auto;
-    
-      
+    position: right;
 }
 .btn.btn-link:hover {
   color: green;
