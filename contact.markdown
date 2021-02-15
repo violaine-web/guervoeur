@@ -6,8 +6,8 @@ order: 4
 ---
 Georgina Tonnelier
 et les amis de La Traverse  
-Guerveur - BP29  
-29550 St Nic  
+Guervoeur 
+29550 St Nic - Pentrez - Plage 
   
 (+33)6 82 00 82 12  
 <georgina84@orange.fr>     
