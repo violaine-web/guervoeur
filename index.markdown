@@ -9,6 +9,7 @@ Comme une oasis en Bretagne.
 Un havre de paix au bord de l'océan.  
 Un lieu de rencontres et de retrouvailles.
 
+
 <!--
 <span class="chip">Ce peu importe</span>
 
