@@ -5,11 +5,11 @@ permalink: /insenses/
 ---
 <style>
     a.open-modal {
-        color: brown;
+        color: green;
     }
 
     .img-responsive {
-        margin-top: 3rem;
+        margin-top: 0.5rem;
     }
 
     .card-title {
@@ -58,8 +58,8 @@ permalink: /insenses/
 
         <div class="column col-6">
             <div class="card>
-                <div class=" card-image">
-                <img src="/assets/img/cantonniers.jpg" class="img-responsive">
+                <div class=" card-image ">
+                <img src=" /assets/img/cantonniers.jpg" class="img-responsive">
             </div>
             <div class="card-header">
                 <div class="card-title h5">{{essai.title}}</div>
@@ -71,11 +71,15 @@ permalink: /insenses/
                     {{ date_french }}
                 </time>
                 <div class="card-body">
+                    <div class="post-entry">
+                        {% assign excerpt_length = site.excerpt_length | default: 50 %}
+                        {{ essai.excerpt | strip_html | xml_escape | truncatewords: excerpt_length }}
+                        {% assign excerpt_word_count = essai.excerpt | number_of_words %}
+                        {% if essai.content != essai.excerpt or excerpt_word_count > excerpt_length %}
+                        {% endif %}
+                    </div>
                     <a href="#" class="open-modal" aria-label="Open" onClick="openModal(this); return false;"
-                        data-essai-id="{{essai.numero}}">Lire le texte</a>
-                    {%- if essai.pdf -%}
-                    <a href="/assets/img/archives/archives-2018/{{essai.pdf}}">Télécharger le numéro</a>
-                    {%- endif -%}
+                        data-essai-id="{{essai.numero}}">[Plus de lecture]</a>
                 </div>
                 <div class="modal" id="modal-{{essai.numero}}">
                     <a href="#" class="modal-overlay" aria-label="Close" onClick="closeModal(this); return false;"
