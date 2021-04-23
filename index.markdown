@@ -5,7 +5,6 @@
 layout: home
 permalink: /index
 ---
-
 Guervoeur comme une OASIS en Bretagne
 
 Nous y pratiquons l'hospitalité depuis longtemps
