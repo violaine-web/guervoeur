@@ -28,11 +28,12 @@ twitter_username: # jekyllrb
 github_username:  # jekyll
 
 collections:
-  - essais-1
-  - essais-2
-  - essais-3
-
-
+  essais-1:
+    output: true
+  essais-2:
+    output: true
+  essais-3:
+    output: true
 # Build settings
 theme: minima
 plugins:
