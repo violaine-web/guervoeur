@@ -3,12 +3,14 @@ layout: page
 title: Les pages de Georgina
 permalink: /pages-georgina/
 ---
-
-### [Il et Elles, mon archipel](/archipel)
-Des textes des unes, des uns et des autres partagés par Georgina
-
 ### [Ce peu importe](2021-02-02-essai-2)
-Chaque semaine, des images et des pensées du bout de la plume de Georgina
+Chaque semaine, avec vous...
 
 ### [Petites récits z'insensés](/insenses)
-Des histoires à lire et à relire
+Parole donnée à vous  
+qui m'avez rencontrée la semaine dernière ou au siècle dernier...
+
+### [Ils et Elles, mon archipel](/archipel)
+Vous écrivez  
+vous êtes passés à Guervœur, ou non.  
+Nous aimons...
