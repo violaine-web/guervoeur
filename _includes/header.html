@@ -1,15 +1,24 @@
 <header class="navbar">
   <section class="navbar-section">
+    <a href="/index" class="navbar-brand mr-2">Guervoeur</a>
+    <a href="/pages-georgina" class="page-link">Les pages de Georgina</a>
+    <a href="/programme" class="page-link">Programme de La Traverse</a>
+    <a href="/contact" class="page-link">Contact</a>
+  </section>
+  <!--
+  <section class="navbar-section">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="navbar-brand mr-2" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {%- if page_paths -%}
-      {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-            <a class="btn btn-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {%- endif -%}
-      {%- endfor -%}
+    {%- for path in page_paths -%}
+    {%- assign my_page = site.pages | where: "path", path | first -%}
+    {%- if my_page.title -%}
+    <a class="btn btn-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+    {%- endif -%}
+    {%- endfor -%}
     {%- endif -%}
   </section>
+  -->
+
 </header>

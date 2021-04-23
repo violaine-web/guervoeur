@@ -12,17 +12,36 @@ body a:visited {
 body a:hover {
     color: black;
   }
-
+.navbar {  
+  border-bottom: 1px solid black;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 5em;
+}
+.page-link {
+  margin-left: 5em;
+}
 .container {
     padding: 2em;
     margin: 1em 3em;
+    float: left;
 }
 .btn.btn-link {
     color: black;
-    padding-left: 15em;
+    position: right;
 }
-
-.navbar {
-    padding-left: 2em;
-    height: 5em;
+.btn.btn-link:hover {
+  color: green;
+}
+.post-title {
+  margin-bottom: 0.4em;
+  margin-top: 0.4em
+}
+.post-subtitle {
+  color: black
+}
+.post-meta {
+  margin-bottom: 5px;
+  font-style: italic;
+  color: green
 }
