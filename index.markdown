@@ -5,7 +5,7 @@
 layout: home
 permalink: /index
 ---
-Guervoeur1- comme une OASIS en Bretagne
+Guervoeur comme une OASIS en Bretagne
 
 Nous y pratiquons l'hospitalité depuis longtemps
 en noir et blanc, aujourd'hui en couleurs
