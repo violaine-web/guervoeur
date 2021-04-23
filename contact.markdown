@@ -9,7 +9,7 @@ Guervoeur
 29550 St Nic - Pentrez - Plage 
   
 (+33)6 82 00 82 12  
-<georgina84@orange.fr>
+<georgina@guervoeur.fr>  
 Facebook : Georgina Delicias    
 
 <!--
