@@ -3,7 +3,6 @@ layout: page
 title: Les pages de Georgina
 permalink: /pages-georgina/
 ---
-Et si je rajoute un truc ici !!
 ### [Ce peu importe](2021-02-02-essai-2)
 Chaque semaine, avec vous...
 
