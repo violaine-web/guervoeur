@@ -8,7 +8,7 @@ layout: default
   {%- endif -%}
 
   {{ content }}
-
+  <!--
   <h2>Ce peu importe</h2>
   <div class="posts-list">
     {% for post in site.essais-3 limit:1 %}
@@ -104,10 +104,10 @@ layout: default
     {% endif %}
   </ul>
   {% endif %}
-
+-->
   <h2>Petits récits z'insensés</h2>
   <div class="posts-list">
-    {% for post in site.essais-2 limit:1 %}
+    {% for post in site.essais-2 offset:1 limit:1 %}
     <article class="post-preview">
 
       {%- capture thumbnail -%}
@@ -203,7 +203,7 @@ layout: default
 
   <h2>Ils et Elles, mon archipel</h2>
   <div class="posts-list">
-    {% for post in site.essais-1 limit:1 %}
+    {% for post in site.essais-1 offset:1 limit:1 %}
     <article class="post-preview">
 
       {%- capture thumbnail -%}
