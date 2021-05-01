@@ -1,6 +1,5 @@
 ---
 layout: home
-permalink: index
 ---
 <p align="center">
  <img src="assets/img/georgina-nb.jpg" alt="Georgina" />
