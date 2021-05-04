@@ -23,4 +23,6 @@ Nous tisserons vos besoins et nos disponibilités.<br>
 <br>
 <strong><em>Georgina</em></strong>
 </p>
+
+<hr/>
 <h1>Un peu de lecture</h1>
