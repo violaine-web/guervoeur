@@ -25,4 +25,3 @@ Nous tisserons vos besoins et nos disponibilités.<br>
 </p>
 
 <hr/>
-<h1>Un peu de lecture</h1>
